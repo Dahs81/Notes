@@ -1,0 +1,7 @@
+git Notes
+
+1.  Set up
+	- mkdir <dirName> && cd <dirName>
+	- git init
+	- cd ..
+	- subl <dirName>
