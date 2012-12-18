@@ -1,3 +1,33 @@
 node.notes
 
-1.
+1.  Node's 'out-of-the-box' Modules
+	a.  http
+
+	b.  qs
+
+	c.  url
+
+	d.  fs
+
+	e.  cluster (multithreading)
+
+	f.  crypto
+
+	g.  net
+
+	h.  modules
+
+	i.  path
+
+	j.  
+
+2.  Modules (third party)
+	a.  node-debug
+
+	b.  express
+
+	c.  async
+
+	d.  request
+
+	e.  

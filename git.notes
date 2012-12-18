@@ -12,9 +12,14 @@ Basics
 
 
 
-Advanced git
+Advanced Topics
 
 1.  Submodule
+	- Purpose: 
+		a.  Useful for a project that needs to be used in multiple projects, but may be slightly different
+		b.  Third party libraries that you want, but still need to pull in their updates when available
+	- What are git submodules
+		a.
 	- cloning a repo that already has a submodule:
 		a.  git clone <repoName>
 		b.  git submodule init
@@ -25,4 +30,16 @@ Advanced git
 2.  Setting up a gitolite server
 	-
 
-3.
+3.  Setting up gl
+	-  Taken from: http://mamykin.com/2010/03/28/favorite-git-log-formatting.html
+	-  Put this in ~/.bash_profile (ensequence):
+		*  alias gl="git log --graph --pretty=format:'%Cred%h%Creset %C(cyan)%an%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+
+
+4.  github account
+	-  Set up:
+		a.
+		b.
+		c.  ssh keys
+
+	-  Using github:
