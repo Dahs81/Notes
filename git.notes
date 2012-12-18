@@ -1,7 +1,28 @@
 git Notes
 
+Basics
+
 1.  Set up
 	- mkdir <dirName> && cd <dirName>
 	- git init
 	- cd ..
 	- subl <dirName>
+
+
+
+
+
+Advanced git
+
+1.  Submodule
+	- cloning a repo that already has a submodule:
+		a.  git clone <repoName>
+		b.  git submodule init
+		c.  git submodule update
+	- setting up a submodule from scratch
+		a.
+
+2.  Setting up a gitolite server
+	-
+
+3.
