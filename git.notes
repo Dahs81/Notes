@@ -1,6 +1,7 @@
 git Notes
 
-Basics
+Basics 
+	BOOK:  http://git-scm.com/book
 
 1.  Set up
 	- mkdir <dirName> && cd <dirName>
@@ -43,3 +44,19 @@ Advanced Topics
 		c.  ssh keys
 
 	-  Using github:
+
+5.  Ensequence Specific commands
+	-  Changing to new giblab server (from old gitolite server):
+		a.  cd <repoName>
+		b.  nano .git/config : Change url to gitlab OR git@<url>:<repoName>
+		c.  cd .git/modules/lib/db (if ther is a submodule)
+		d.  nano config : Change url (if ther is a submodule)
+		e.  cd ../../../..
+		f.  nano .gitmodule : Change url to git@<url>:<repoName>
+
+	- mysql command line
+		ssh -L 3306:127.0.0.1:3306 root@198.61.234.139
+
+
+
+
