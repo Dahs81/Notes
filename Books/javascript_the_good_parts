@@ -1,0 +1,47 @@
+Javascript: The Good Parts
+
+Chapter 1: Good Parts
+
+
+Chapter 2: Grammar
+
+
+Chapter 3: Objects
+
+
+Chapter 4: Functions
+
+
+Chapter 5: Inheritance
+
+
+Chapter 6: Arrays
+
+
+Chapter 7: Regular Expressions
+	- Regex if javascript was borrowed from Perl
+	- regex Methods: regexp.exec, regexp.test, string.match, stirng.replace, string.search, string.split
+	- Regexp usually have a significant performance advantage over string equiv methods.
+
+
+Chapter 8: Methods
+
+
+Chapter 9: Style
+	- indent 4 spaces
+	- use spaces consistantly
+	- if (true) { ... } -- space between 'if (' AND ') {'
+	- no spaces for function invocation -- myFunction()
+	- make comments meaningful, don't add meaningless comments -- example: i = 0; //Set i to zero
+	- declare all variables at the beginning of a function - due to js lack of block scope
+
+Chapter 10: Beautiful Features
+
+
+Appendix A: Awful Parts
+
+
+Appendix B: Bad Parts
+
+
+Appendix C: JSLint
