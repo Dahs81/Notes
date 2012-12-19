@@ -9,8 +9,10 @@ Basics
 	- cd ..
 	- subl <dirName>
 
+2.  Most common commands:
+	- add, commit < -m >, pull, push, diff, reflog, reset -- aliases in .gitconfig OR .bash_profile
 
-
+3.  
 
 
 Advanced Topics

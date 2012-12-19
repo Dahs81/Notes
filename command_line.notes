@@ -21,6 +21,6 @@ Advanced topics
 	b.  cd .ssh/
 	c.  chmod u-x * (for the files in the directory, they cannot be executable)
 
-	-
+	-  Setting up rsa keys  TODO:
 
 4.  
