@@ -36,7 +36,12 @@ Chapter 7: Regular Expressions
 
 	- Capturing groups vs non-capturing groups:
 		a.  A capturing group is ...
-		b.  
+		b. 
+
+	- Flags
+		a.  /g - Match the regexp multiple times
+		b.  /i - Ignore case throughout the regexp 
+		c.  /m - Matches on multiple lines
 
 	- Character meanings:
 		a.  (?: ... )?  Non-capturing group --An optional question mark followed by a colon indicates that the group in parenthesis 
@@ -47,10 +52,12 @@ Chapter 7: Regular Expressions
 		e.  ^   This means a string begins with the regexp specified
 		f.  $   This means a string ends with the regexp specified
 		g.  ^ ... $  This means a string only has the regexp specified
-		h.  /i  At the end of regexp means to ignore case throughout the regexp
-		i.  \d  This is the same as [0-9]
+		h.  \d  This is the same as [0-9]
 
 	CURRENTLY ON PAGE 149 - 7.2 CONSTRUCTORS
+
+	- More References: 
+		a.  https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Regular_Expressions
 
 Chapter 8: Methods
 

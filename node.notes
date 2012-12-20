@@ -27,7 +27,20 @@ node.notes
 	b.  express
 
 	c.  async
+		- map:
+			arg1 - an array of data 
+			arg2 - this is an iterator function that takes an item and callback,
+			arg3 - callback(err, results) function that calls the callback 
+			Example:
+				var myTestFunction = function (item, callback) { 
+					var x = item + ' added something.';
+					console.log(x);
+				};
+				async.map(['file1','file2','file3'], myTestFunction, function(err, results){ callback(results) });
 
 	d.  request
 
 	e.  
+
+3. npm
+	a.   npm install --save  NOTE: you can make an alias that does this for you.
