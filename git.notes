@@ -12,6 +12,9 @@ Basics
 2.  Most common commands:
 	- add, commit < -m >, pull, push, diff, reflog, reset -- aliases in .gitconfig OR .bash_profile
 
+	-  git diff master develop - gives the defference between master and develop
+	-
+
 3.  
 
 
