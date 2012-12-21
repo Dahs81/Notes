@@ -2,8 +2,24 @@ node.notes
 
 1.  Node's 'out-of-the-box' Modules
 	a.  http
+		- Setting up a server
+			var http = require('http');
+			var server = http.createServer();
+			server.on('request', function (req, res) {
+				res.send(...);
+			});
+			server.listen(3000);
+			console.log('Server listening on port 3000');
+			OR
+			var http = require('http');
+			var server = http.createServer(function (req, res) {
+				res.send(...);
+			}).listen(3000);
+			console.log('Server listening on port 3000');
 
 	b.  qs
+		- qs == querystring
+		- 
 
 	c.  url
 

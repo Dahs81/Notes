@@ -1,5 +1,7 @@
 git Notes
 
+git online book: ON Section 4.2
+
 Basics 
 	BOOK:  http://git-scm.com/book
 
@@ -12,7 +14,7 @@ Basics
 2.  Most common commands:
 	- add, commit < -m >, pull, push, diff, reflog, reset -- aliases in .gitconfig OR .bash_profile
 
-	-  git diff master develop - gives the defference between master and develop
+	-  git diff master develop - gives the difference between master and develop
 	-
 
 3.  
