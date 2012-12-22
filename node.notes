@@ -41,6 +41,9 @@ node.notes
 	a.  node-debug
 
 	b.  express
+		- 
+		- Production Mode
+			NODE_DEV=production node app.js
 
 	c.  async
 		- map:
