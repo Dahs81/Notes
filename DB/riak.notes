@@ -1,0 +1,5 @@
+Riak
+
+Use Case
+	-  Best for applications that cannot afford even seconds of server downtime
+	-  

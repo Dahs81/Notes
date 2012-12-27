@@ -25,7 +25,43 @@ Chapter 5
 			d.  Provide a way to add a new piece of data to the file.  This uses the store data function from step c.
 		-  Recap: Be able to read the data from file and store new data to the file.
 	-  RDBMS
+
+
+	-  NoSQL DB's
+		-  Redis
+
+
+		-  MongoDB
+			Mongo is a general-purpose db alternitive to a RDBMS.
+			Mongo stores documents inside of collections:
+			>  Collection
+				>  Document
+					Name: 'Rick'
+					Age: 23
+				>  Document
+					ItemId: 12
+					Amount: 45
+				...
 		
+			Installing Mongo-node module
+				-  npm install mongodb
+
+			Connecting to MongoDB
+				var mongo = require('mongodb'),
+					server = new mongo.Server('127.0.0.1', 27017, {});
+				var client = new mongo.Db('mtest', server);
+
+			Accessing a collection
+				client.open(function (err) {
+					if (err) throw err;
+					client.collection('test_insert', function (err, collection) {
+						if (err) throw err;
+						console.log('We are now able to perform queries');  // Put mongo query code here
+					});
+				});
+
+			Inserting a document into a collection
+
 
 
 Chapter 6

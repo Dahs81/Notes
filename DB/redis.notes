@@ -1,5 +1,12 @@
 Redis
 
+Mac related issues
+-  xCode-gcc problem
+	Starting from xcode 4.2 on, apple has removed the old gcc compiler
+	To fix this, go to
+	Xcode => Preferences => Downloads => Command line Tools (install)
+	~ This will allow you to download other programs that use gcc (for example redis)
+
 Installing redis
 	-  wget http://download.redis.io/redis-stable.tar.gz
 	-  tar xvzf redis-stable.tar.gz
@@ -8,9 +15,23 @@ Installing redis
 	-  make test (optional step to ensure that install worked)
 	-  sudo make install (this installs redis in /usr/local/bin) 
 
+Starting redis server
+-  $ redis-server (in bash terminal)
+-  $ redis-cli (on separate bash terminal)
+
+Redis commands
+-  Data types:
+	a.  sets
+	b.  strings
+	c.  lists
+	d.  ...
+
+-  
+
 Degubbing
-	-  $  telnet localhost 6379
+	-  $  telnet localhost 6379 (in separate bash terminal)
 	-  telnet> monitor
 	~  This prints out all the commands that redis is running
 
-
+Node-redis
+-  npm install redis (see also npm install hiredis)
