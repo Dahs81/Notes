@@ -1,0 +1,16 @@
+Redis
+
+Installing redis
+	-  wget http://download.redis.io/redis-stable.tar.gz
+	-  tar xvzf redis-stable.tar.gz
+	-  cd redis-stable
+	-  make
+	-  make test (optional step to ensure that install worked)
+	-  sudo make install (this installs redis in /usr/local/bin) 
+
+Degubbing
+	-  $  telnet localhost 6379
+	-  telnet> monitor
+	~  This prints out all the commands that redis is running
+
+

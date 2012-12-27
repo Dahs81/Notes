@@ -1,0 +1,27 @@
+MongoDB
+
+Installing MongoDB
+
+
+Getting started
+-  Command-line
+	a.  Start the server by typing 'mongod' into the console
+	b.  Open a new bash tab and run 'mongo'
+	c.  use <databaseName>
+-  
+
+Mac related issues
+-  xCode-gcc problem
+	Starting from xcode 4.2 on, apple has removed the old gcc compiler
+	To fix this, go to
+	Xcode => Preferences => Downloads => Command line Tools (install)
+	~ This will allow you to download other programs that use gcc (for example redis)
+
+
+Installing redis
+	-  wget http://download.redis.io/redis-stable.tar.gz
+	-  tar xvzf redis-stable.tar.gz
+	-  cd redis-stable
+	-  make
+	-  make test (optional step to ensure that install worked)
+	-  sudo make install (this installs redis in /usr/local/bin) 
