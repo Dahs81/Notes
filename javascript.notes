@@ -14,7 +14,10 @@ Basics
 4.  Arrays
 
 
-5.  
+5.  Dates
+	- Converting a string to a Date object:
+		var dateStr = 'Fri Nov 11 2011 11:11:11 GMT-0500 (EST)';
+		var date = Date.parse(dateStr);
 
 
 Advanced

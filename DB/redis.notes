@@ -1,5 +1,6 @@
 Redis
 
+*************************************** SETUP ***************************************
 Mac related issues
 -  xCode-gcc problem
 	Starting from xcode 4.2 on, apple has removed the old gcc compiler
@@ -18,6 +19,8 @@ Installing redis
 Starting redis server
 -  $ redis-server (in bash terminal)
 -  $ redis-cli (on separate bash terminal)
+
+*************************************************************************************
 
 Redis commands
 -  Data types:

@@ -33,6 +33,7 @@ Chapter 5
 
 		-  MongoDB
 			Mongo is a general-purpose db alternitive to a RDBMS.
+			Mongo has a flexible schema - you can add columns to any document whenever you please
 			Mongo stores documents inside of collections:
 			>  Collection
 				>  Document
@@ -49,7 +50,7 @@ Chapter 5
 			Connecting to MongoDB
 				var mongo = require('mongodb'),
 					server = new mongo.Server('127.0.0.1', 27017, {});
-				var client = new mongo.Db('mtest', server);
+				var client = new mongo.Db('mtest', server);  // params: nameOfDB, instanceOfServer (from line above)
 
 			Accessing a collection
 				client.open(function (err) {
