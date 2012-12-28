@@ -10,12 +10,4 @@ Getting started
 	c.  use <databaseName>
 -  
 
-Redis commands
--  Data types:
-	a.  sets
-	b.  strings
-	c.  lists
-	d.  ...
 
-Node-redis
--  npm install redis (see also npm install hiredis)
