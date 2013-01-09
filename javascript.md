@@ -22,7 +22,7 @@ Basics
 6.  Errors
 	####  Creating custom errors
 	   Option 1
-	    ```
+	    
 		function MyCustomError(msg) {
 			Error.call(this);
 			Error.captureStackTrace(this, arguments.callee);
