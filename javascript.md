@@ -1,6 +1,6 @@
 javascript.notes
 
-Basics
+# Basics
 
 1.  Functions
 
@@ -21,7 +21,7 @@ Basics
 
 6.  Errors
 	####  Creating custom errors
-	   Option 1
+	   **Option 1**
 		    
 		function MyCustomError(msg) {
 			Error.call(this);
@@ -32,7 +32,7 @@ Basics
 			
 			MyCustomError.prototype.__proto__ = Error.prototype;
 
-	   Option 2
+	   **Option 2**
 	    
 	   	function UserError(message) {
   			this.constructor.prototype.__proto__ = Error.prototype  // Make this an instanceof Error.
@@ -49,7 +49,7 @@ Basics
 
 	> That caveat does not apply the function, because functions are created first, no matter the order. Thus, you can move the function to the end of the file, without a problem.
 
-	   Option 3
+	   **Option 3**
 
 
 	####  Using custom Errors:
@@ -57,7 +57,7 @@ Basics
 
 
 
-Advanced
+# Advanced
 
 1.  Regexp
 
@@ -65,7 +65,7 @@ Advanced
 2.  Building functions (by returning a function)
 
 
-Libraries
+# Libraries
 
 1.  underscore.js
 
