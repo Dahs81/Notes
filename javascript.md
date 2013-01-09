@@ -42,12 +42,12 @@ Basics
   			this.message = message;                                 // Used to set the message
 		}
 
-		**NOTE:**  
-		> I keep this.constructor.prototype.__proto__ = Error.prototype inside the function to keep all the code together. But you can also replace this.constructor with UserError and that allows you to move the code to outside the function, so it only gets called once.
+	**NOTE:**  
+	> I keep this.constructor.prototype.__proto__ = Error.prototype inside the function to keep all the code together. But you can also replace this.constructor with UserError and that allows you to move the code to outside the function, so it only gets called once.
 
-		> If you go that route, make sure you call that line before the first time you throw UserError.
+	> If you go that route, make sure you call that line before the first time you throw UserError.
 
-		> That caveat does not apply the function, because functions are created first, no matter the order. Thus, you can move the function to the end of the file, without a problem.
+	> That caveat does not apply the function, because functions are created first, no matter the order. Thus, you can move the function to the end of the file, without a problem.
 
 	   Option 3
 
