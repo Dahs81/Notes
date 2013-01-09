@@ -31,10 +31,9 @@ Basics
 		}
 		
 		MyCustomError.prototype.__proto__ = Error.prototype;
-		```
 
 	   Option 2
-	    ```
+	    
 	   	function UserError(message) {
   			this.constructor.prototype.__proto__ = Error.prototype  // Make this an instanceof Error.
   			Error.call(this)                                        // Does not seem necessary. Perhaps remove this line?
@@ -42,7 +41,6 @@ Basics
   			this.name = this.constructor.name;                      // "UserError: message" instead of the default "Error: message"
   			this.message = message;                                 // Used to set the message
 		}
-		```
 
 		**NOTE:**  
 		> I keep this.constructor.prototype.__proto__ = Error.prototype inside the function to keep all the code together. But you can also replace this.constructor with UserError and that allows you to move the code to outside the function, so it only gets called once.
