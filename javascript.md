@@ -22,17 +22,15 @@ Basics
 6.  Errors
 	####  Creating custom errors
 	   Option 1
-	    
-	```
+		    
 		function MyCustomError(msg) {
 			Error.call(this);
 			Error.captureStackTrace(this, arguments.callee);
 			Error.message = msg || 'Error';
 			Error.name = 'My Custom Error';
 		}
-		
-		MyCustomError.prototype.__proto__ = Error.prototype;
-	```
+			
+			MyCustomError.prototype.__proto__ = Error.prototype;
 
 	   Option 2
 	    
