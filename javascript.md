@@ -23,7 +23,7 @@ Basics
 	####  Creating custom errors
 	   Option 1
 	    
-	    ```
+	```
 		function MyCustomError(msg) {
 			Error.call(this);
 			Error.captureStackTrace(this, arguments.callee);
@@ -32,8 +32,8 @@ Basics
 		}
 		
 		MyCustomError.prototype.__proto__ = Error.prototype;
-		```
-		
+	```
+
 	   Option 2
 	    
 	   	function UserError(message) {
