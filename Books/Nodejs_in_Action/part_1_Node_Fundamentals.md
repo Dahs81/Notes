@@ -1,36 +1,44 @@
 Part I : Node Fundamentals
 
-Chapter 1
+## Chapter 1
 	- Node runs on Google's V8
 	- Checkout: jslinux
 	- Based on javascript : Good with MongoDB/CouchDB, JSON
 	- More than 15,000 modules through npm
 
-	Async/Non-blocking I/O
+	#### Async/Non-blocking I/O
 		- Example (async/non-blocking):
-			$.post('/resource.json', function (data) {
-				console.log(data);;
-			});
-			~ This allows the script to continue without having to wait for a response from the server
-		- Example (blocking I/O);
-			var data = $.post(/resource.json);
-			console.log(data);
-			~ In this example, EVERYTHING must wait until the response is returned before it can continue on.
-		** This is obviously bad if there in an animation going on or the user is interacting with your page.
 
-	Event Loop
+		```
+		$.post('/resource.json', function (data) {
+			console.log(data);;
+		});
+		```
+
+		*This allows the script to continue without having to wait for a response from the server.*
+		- Example (blocking I/O);
+
+		```
+		var data = $.post(/resource.json);
+		console.log(data);
+		```
+
+		*In this example, **EVERYTHING** must wait until the response is returned before it can continue on.*
+		*This is obviously bad if there in an animation going on or the user is interacting with your page.*
+
+	#### Event Loop
 		- ???
 
-	Server
+	#### Server
 		- Blocking I/O and multithreading
 
-	DIRTy Applications
+	#### DIRTy Applications
 		- DIRT: Data-intensive real-time applications
 		- Example: browserling.com
 
 
 
-Chapter 2
+## Chapter 2
 	- Setting up a chat application using Socket.io
 		a.  Install node/npm
 			-  
