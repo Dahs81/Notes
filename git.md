@@ -2,8 +2,8 @@ git Notes
 
 git online book: ON Section 4.2
 
-Basics 
-	BOOK:  http://git-scm.com/book
+## Basics 
+**BOOK:**  http://git-scm.com/book
 
 1.  Set up
 	1. mkdir <dirName> && cd <dirName>
@@ -13,14 +13,12 @@ Basics
 
 2.  Most common commands:
 	- add, commit < -m >, pull, push, diff, reflog, reset -- aliases in .gitconfig OR .bash_profile
-
-	-  git diff master develop - gives the difference between master and develop
-	-
+	- git diff master develop - gives the difference between master and develop
 
 3.  
 
 
-Advanced Topics
+## Advanced Topics
 
 1.  Submodule
 	- Purpose: 
@@ -46,10 +44,9 @@ Advanced Topics
 
 4.  github account
 	-  Set up:
-		-
-		-
+		- a
+		- a
 		- ssh keys
-
 	-  Using github:
 
 5.  Ensequence Specific commands
@@ -60,10 +57,8 @@ Advanced Topics
 		- nano config : Change url (if ther is a submodule)
 		- cd ../../../..
 		- nano .gitmodule : Change url to git@<url>:<repoName>
-
 	- mysql command line
 		- ssh -L 3306:127.0.0.1:3306 root@198.61.234.139
-
 	- raptor builder
 		- $ db_service_create -s newApp1
 
