@@ -17,9 +17,9 @@ command_line.notes
 
 3.  .ssh
 	-  Correct file permissions for .ssh
-		a.  chmod u+x .ssh (for the directory itself, it must be executable)
-		b.  cd .ssh/
-		c.  chmod u-x * (for the files in the directory, they cannot be executable)
+		- a.  chmod u+x .ssh (for the directory itself, it must be executable)
+		- b.  cd .ssh/
+		- c.  chmod u-x * (for the files in the directory, they cannot be executable)
 
 	-  Setting up rsa keys  TODO:
 
