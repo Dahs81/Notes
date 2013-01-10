@@ -23,7 +23,7 @@ var data = $.post(/resource.json);
 console.log(data);
 ```
 
-*In this example, **EVERYTHING** must wait until the response is returned before it can continue on.*
+*In this example,* **EVERYTHING** *must wait until the response is returned before it can continue on.*
 *This is obviously bad if there in an animation going on or the user is interacting with your page.*
 
 #### Event Loop
