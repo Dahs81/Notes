@@ -76,24 +76,26 @@ ON PAGE 44
 			  index.js
 			  package.json
 		```
-		
+
 	- Async programming
-		a.  Example 1
-				function asyncFunction (callback) {
-					setTimeout(function () {
-						callback();
-					}, 200);
-				}
-				var color = 'blue';
-				asyncFunction(function () {
-					console.log('The color is: ' + color);
-				});
-				color = 'green';
+		- Example 1
 
-				OUTPUT: 'The color is: green'
-			~ Because the callback function is async, the program continues on after the call to asyncFunction.  The color variable is immediately set to green.  After 200 ms, the async function is returned and the console message outputs 'green'.
+		```
+			function asyncFunction (callback) {
+				setTimeout(function () {
+					callback();
+				}, 200);
+			}
+			var color = 'blue';
+			asyncFunction(function () {
+				console.log('The color is: ' + color);
+			});
+			color = 'green';
+		```
 
-		b.  Example 2
+		**OUTPUT:** 'The color is: green'
+		*Because the callback function is async, the program continues on after the call to asyncFunction.  The color variable is immediately set to green.  After 200 ms, the async function is returned and the console message outputs 'green'.*
+	- Example 2
 				function asyncFunction (callback) {
 					setTimeout(function () {
 						callback();
