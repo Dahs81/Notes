@@ -68,8 +68,10 @@ javascript.notes
 	```
 	str = num.toString();
 	str = String(num);  //Works with null and undefined
+
 	```
 	- Convert string to number:
+	
 	```
 	num = Number(str);
 	num = +str;
