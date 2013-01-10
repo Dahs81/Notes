@@ -63,6 +63,17 @@ javascript.notes
 	####  Using custom Errors:
 		TODO:  show some examples
 
+7.  Number
+	- Converting numbers to string:
+	```
+	str = num.toString();
+	str = String(num);  //Works with null and undefined
+	```
+	- Convert string to number:
+	```
+	num = Number(str);
+	num = +str;
+	```
 
 
 ## Advanced
