@@ -43,13 +43,13 @@ console.log(data);
 	2.  Directory structure for an application: (see page 29 for diagram)
 
 ```
-	&#62; MyProject
-		&#62; lib (contains socket.io server file)
-		&#62; public (html files, etc)
+	> MyProject
+		> lib (contains socket.io server file)
+		> public (html files, etc)
 			index.html
 			other.html
-			&#62; javascripts (js files)
-			&#62; stylesheets (css/scss files)
+			> javascripts (js files)
+			> stylesheets (css/scss files)
 		server.js
 		package.json
 ```
