@@ -1,13 +1,13 @@
 command_line.notes
 
-Basics
+## Basics
 
 1.  Commands:
 	-
 
 
 
-Advanced topics
+## Advanced topics
 
 1.  cron
 
@@ -24,7 +24,7 @@ Advanced topics
 	-  Setting up rsa keys  TODO:
 
 
-		Resource:  http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key
+		**Resource:**  http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key
 
 	-  
 4.  
