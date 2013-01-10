@@ -5,8 +5,16 @@ javascript.notes
 1.  Functions
 
 
-2.  Classes
-
+2.  Classes - Prototype
+	- new prefix operator
+	
+	```
+	function new(func, arguments) {
+		var that = Object.create(func.prototype);
+			result = func.apply(that, arguments);
+		return (typeof === 'object' && result) || that);
+	}
+	```
 
 3.  Objects
 
