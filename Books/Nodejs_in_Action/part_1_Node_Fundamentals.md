@@ -93,23 +93,27 @@ ON PAGE 44
 			color = 'green';
 		```
 
-		**OUTPUT:** 'The color is: green'
-		*Because the callback function is async, the program continues on after the call to asyncFunction.  The color variable is immediately set to green.  After 200 ms, the async function is returned and the console message outputs 'green'.*
-	- Example 2
-				function asyncFunction (callback) {
-					setTimeout(function () {
-						callback();
-					}, 200);
-				}
-				var color = 'blue';
-				(function (color){
-					asyncFunction(function () {
-						console.log('The color is: ' + color);
-					})
-				})(color);
-				color = 'green';
-			~ By making color an argument for an anonymous function, it becomes local to the scope of that function and when the value of color is changed outside of the anonymous function, the local version is unaffected.
-			~ This trick wraps asyncFunction in a closure.
+		> **OUTPUT:** 'The color is: green'
+		> *Because the callback function is async, the program continues on after the call to asyncFunction.  The color variable is immediately set to green.  After 200 ms, the async function is returned and the console message outputs 'green'.*
+		- Example 2
+
+		```
+			function asyncFunction (callback) {
+				setTimeout(function () {
+					callback();
+				}, 200);
+			}
+			var color = 'blue';
+			(function (color){
+				asyncFunction(function () {
+					console.log('The color is: ' + color);
+				})
+			})(color);
+			color = 'green';
+		```
+
+		> *By making color an argument for an anonymous function, it becomes local to the scope of that function and when the value of color is changed outside of the anonymous function, the local version is unaffected.*
+		> *This trick wraps asyncFunction in a closure.*
 
 		ON PAGE 59 (IN COMPUTER BOOK)
 
