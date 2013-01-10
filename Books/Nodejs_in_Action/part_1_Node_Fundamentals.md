@@ -58,22 +58,25 @@ console.log(data);
 
 ON PAGE 44
 
-Chapter 3: Node Programming fundamentals - page 51
-	- Modules
-		a.
+## Chapter 3: Node Programming fundamentals - page 51
+- Modules
+	- a
 
-		b.  MORE FROM GITHUB
-			- Here is a basic setup for the files needed to create a npm module:
-				> lib
-				> test
-				  .gitignore
-				  .npmignore
-				  History.md
-				  Makefile
-				  Readme.md
-				  index.js
-				  package.json
+	- MORE FROM GITHUB
+		- Here is a basic setup for the files needed to create a npm module:
 
+		```
+			> lib
+			> test
+			  .gitignore
+			  .npmignore
+			  History.md
+			  Makefile
+			  Readme.md
+			  index.js
+			  package.json
+		```
+		
 	- Async programming
 		a.  Example 1
 				function asyncFunction (callback) {
