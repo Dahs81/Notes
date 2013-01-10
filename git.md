@@ -27,7 +27,7 @@ git online book: ON Section 4.2
 	- What are git submodules
 		-
 	- cloning a repo that already has a submodule:
-		1.  git clone *<repoName>*
+		1.  git clone *repoName*
 		2.  git submodule init
 		3.  git submodule update
 	- setting up a submodule from scratch
