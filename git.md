@@ -6,10 +6,10 @@ Basics
 	BOOK:  http://git-scm.com/book
 
 1.  Set up
-	- mkdir <dirName> && cd <dirName>
-	- git init
-	- cd ..
-	- subl <dirName>
+	1. mkdir <dirName> && cd <dirName>
+	2. git init
+	3. cd ..
+	4. subl <dirName>
 
 2.  Most common commands:
 	- add, commit < -m >, pull, push, diff, reflog, reset -- aliases in .gitconfig OR .bash_profile
