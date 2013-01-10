@@ -40,8 +40,9 @@ git online book: ON Section 4.2
 	-  Taken from: http://mamykin.com/2010/03/28/favorite-git-log-formatting.html
 	-  Put this in ~/.bash_profile (ensequence):
 
-		alias gl="git log --graph --pretty=format:'%Cred%h%Creset %C(cyan)%an%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
-
+	```
+	alias gl="git log --graph --pretty=format:'%Cred%h%Creset %C(cyan)%an%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+	```
 
 4.  github account
 	-  Set up:
