@@ -1,6 +1,6 @@
 javascript.notes
 
-# Basics
+## Basics
 
 1.  Functions
 
@@ -57,7 +57,7 @@ javascript.notes
 
 
 
-# Advanced
+## Advanced
 
 1.  Regexp
 
@@ -65,7 +65,7 @@ javascript.notes
 2.  Building functions (by returning a function)
 
 
-# Libraries
+## Libraries
 
 1.  underscore.js
 
