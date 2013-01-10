@@ -95,6 +95,7 @@ ON PAGE 44
 
 		> **OUTPUT:** 'The color is: green'
 		> *Because the callback function is async, the program continues on after the call to asyncFunction.  The color variable is immediately set to green.  After 200 ms, the async function is returned and the console message outputs 'green'.*
+		
 		#### Example 2
 
 		```
