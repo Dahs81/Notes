@@ -1,4 +1,4 @@
-Part I : Node Fundamentals
+# Part I : Node Fundamentals
 
 ## Chapter 1
 - Node runs on Google's V8
@@ -37,23 +37,23 @@ console.log(data);
 - Example: browserling.com
 
 ## Chapter 2
-	- Setting up a chat application using Socket.io
-		a.  Install node/npm
+- Setting up a chat application using Socket.io
+	1.  Install node/npm
 			-  
-		b.  Directory structure for an application: (see page 29 for diagram)
-			> MyProject
-				> lib (contains socket.io server file)
-				> public (html files, etc)
-					index.html
-					other.html
-					> javascripts (js files)
-					> stylesheets (css/scss files)
-				server.js
-				package.json
+	2.  Directory structure for an application: (see page 29 for diagram)
+		> MyProject
+			> lib (contains socket.io server file)
+			> public (html files, etc)
+				index.html
+				other.html
+				> javascripts (js files)
+				> stylesheets (css/scss files)
+			server.js
+			package.json
 
-	- Socket.io
+- Socket.io
 
-	ON PAGE 44
+ON PAGE 44
 
 Chapter 3: Node Programming fundamentals - page 51
 	- Modules
