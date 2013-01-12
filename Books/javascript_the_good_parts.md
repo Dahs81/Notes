@@ -7,13 +7,13 @@
 
 
 ### Chapter 3: Objects
-Introduction
+#### Introduction
 > - Everything in javascript are objects except numbers, strings, and booleans.
 > - Object:  a container of properties that have a value aka key/value pairs.  
 > - Keys are any string, values can be anything but undefined.
 > - Object prototype linkage: this allows one object to inherit the properties of another object.
 	
-Object Literals - 3.1
+#### Object Literals - 3.1
 > - a
 
 ### Chapter 4: Functions
@@ -26,6 +26,7 @@ Object Literals - 3.1
 
 
 ### Chapter 7: Regular Expressions
+#### Introduction to Regexp
 - Regex if javascript was borrowed from Perl
 - regex Methods: regexp.exec, regexp.test, string.match, stirng.replace, string.search, string.split
 - Regexp usually have a significant performance advantage over string equiv methods.
