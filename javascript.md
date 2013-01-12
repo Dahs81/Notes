@@ -29,7 +29,7 @@ javascript.notes
 
 6.  Errors
 	####  Creating custom errors
-	   **Option 1**
+	**Option 1**
 		 
 	```   
 		function MyCustomError(msg) {
@@ -42,7 +42,7 @@ javascript.notes
 		MyCustomError.prototype.__proto__ = Error.prototype;
 	```
 
-		**Option 2**
+	**Option 2**
 
 	```
 	   	function UserError(message) {
