@@ -1,12 +1,12 @@
-Javascript: The Good Parts
+# Javascript: The Good Parts
 
-Chapter 1: Good Parts
-
-
-Chapter 2: Grammar
+### Chapter 1: Good Parts
 
 
-Chapter 3: Objects
+### Chapter 2: Grammar
+
+
+### Chapter 3: Objects
 	Introduction
 		- Everything in javascript are objects except numbers, strings, and booleans.
 		- Object:  a container of properties that have a value aka key/value pairs.  
@@ -16,16 +16,16 @@ Chapter 3: Objects
 	Object Literals - 3.1
 		-
 
-Chapter 4: Functions
+### Chapter 4: Functions
 
 
-Chapter 5: Inheritance
+### Chapter 5: Inheritance
 
 
-Chapter 6: Arrays
+### Chapter 6: Arrays
 
 
-Chapter 7: Regular Expressions
+### Chapter 7: Regular Expressions
 	- Regex if javascript was borrowed from Perl
 	- regex Methods: regexp.exec, regexp.test, string.match, stirng.replace, string.search, string.split
 	- Regexp usually have a significant performance advantage over string equiv methods.
@@ -60,10 +60,10 @@ Chapter 7: Regular Expressions
 	- More References: 
 		a.  https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Regular_Expressions
 
-Chapter 8: Methods
+### Chapter 8: Methods
 
 
-Chapter 9: Style
+### Chapter 9: Style
 	- indent 4 spaces
 	- use spaces consistantly
 	- if (true) { ... } -- space between 'if (' AND ') {'
@@ -71,13 +71,13 @@ Chapter 9: Style
 	- make comments meaningful, don't add meaningless comments -- example: i = 0; //Set i to zero
 	- declare all variables at the beginning of a function - due to js lack of block scope
 
-Chapter 10: Beautiful Features
+### Chapter 10: Beautiful Features
 
 
-Appendix A: Awful Parts
+### Appendix A: Awful Parts
 
 
-Appendix B: Bad Parts
+### Appendix B: Bad Parts
 
 
 Appendix C: JSLint
