@@ -26,6 +26,8 @@
 
 
 ### Chapter 7: Regular Expressions
+============================================================
+
 #### Introduction to Regexp
 > - Regex if javascript was borrowed from Perl
 > - regex Methods: regexp.exec, regexp.test, string.match, stirng.replace, string.search, string.split
