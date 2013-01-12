@@ -37,24 +37,24 @@
 > `var result = parse_url.exec(url);`
 
 #### Capturing groups vs non-capturing groups:
-1.  A capturing group is ...
-2.  a
+> - A capturing group is ...
+> - a
 
 #### Flags
-1.  /g - Match the regexp multiple times
-2.  /i - Ignore case throughout the regexp 
-3.  /m - Matches on multiple lines
+> - /g - Match the regexp multiple times
+> - /i - Ignore case throughout the regexp 
+> - /m - Matches on multiple lines
 
 #### Character meanings:
-1.  (?: ... )?  Non-capturing group --An optional question mark followed by a colon indicates that the group in parenthesis 
+> - (?: ... )?  Non-capturing group --An optional question mark followed by a colon indicates that the group in parenthesis 
 				is optional - parenthesis followed by another ?
-2.  []   Brackets means match the characters within the brackets - NOTE: [Ee] === (?:E|e)
-3.  []*  Match the characters in the brackets ZERO or more times
-4.  []+  Match the characters in the brackets ONE or more times
-5.  ^   This means a string begins with the regexp specified
-6.  $   This means a string ends with the regexp specified
-7.  ^ ... $  This means a string only has the regexp specified
-8.  \d  This is the same as [0-9]
+> - []   Brackets means match the characters within the brackets - NOTE: [Ee] === (?:E|e)
+> - []*  Match the characters in the brackets ZERO or more times
+> - []+  Match the characters in the brackets ONE or more times
+> - ^   This means a string begins with the regexp specified
+> - $   This means a string ends with the regexp specified
+> - ^ ... $  This means a string only has the regexp specified
+> - \d  This is the same as [0-9]
 
 CURRENTLY ON PAGE 149 - 7.2 CONSTRUCTORS
 
