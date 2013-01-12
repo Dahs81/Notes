@@ -78,7 +78,7 @@ ON PAGE 44
 	  package.json
 ```
 
-> - Async programming
+#### Async programming
 #### Example 1
 
 ```
