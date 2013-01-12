@@ -27,50 +27,50 @@
 
 ### Chapter 7: Regular Expressions
 #### Introduction to Regexp
-- Regex if javascript was borrowed from Perl
-- regex Methods: regexp.exec, regexp.test, string.match, stirng.replace, string.search, string.split
-- Regexp usually have a significant performance advantage over string equiv methods.
+> - Regex if javascript was borrowed from Perl
+> - regex Methods: regexp.exec, regexp.test, string.match, stirng.replace, string.search, string.split
+> - Regexp usually have a significant performance advantage over string equiv methods.
 
-- Example:
-`var parse_url = /^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/;`
-`var url = 'http://www.google.com:80/test?q#some';`
-`var result = parse_url.exec(url);`
+#### Example:
+> `var parse_url = /^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/;`
+> `var url = 'http://www.google.com:80/test?q#some';`
+> `var result = parse_url.exec(url);`
 
-- Capturing groups vs non-capturing groups:
-	a.  A capturing group is ...
-	b. 
+#### Capturing groups vs non-capturing groups:
+1.  A capturing group is ...
+2.  a
 
-- Flags
-	a.  /g - Match the regexp multiple times
-	b.  /i - Ignore case throughout the regexp 
-	c.  /m - Matches on multiple lines
+#### Flags
+1.  /g - Match the regexp multiple times
+2.  /i - Ignore case throughout the regexp 
+3.  /m - Matches on multiple lines
 
-- Character meanings:
-	a.  (?: ... )?  Non-capturing group --An optional question mark followed by a colon indicates that the group in parenthesis 
-					is optional - parenthesis followed by another ?
-	b.  []   Brackets means match the characters within the brackets - NOTE: [Ee] === (?:E|e)
-	c.  []*  Match the characters in the brackets ZERO or more times
-	d.  []+  Match the characters in the brackets ONE or more times
-	e.  ^   This means a string begins with the regexp specified
-	f.  $   This means a string ends with the regexp specified
-	g.  ^ ... $  This means a string only has the regexp specified
-	h.  \d  This is the same as [0-9]
+#### Character meanings:
+1.  (?: ... )?  Non-capturing group --An optional question mark followed by a colon indicates that the group in parenthesis 
+				is optional - parenthesis followed by another ?
+2.  []   Brackets means match the characters within the brackets - NOTE: [Ee] === (?:E|e)
+3.  []*  Match the characters in the brackets ZERO or more times
+4.  []+  Match the characters in the brackets ONE or more times
+5.  ^   This means a string begins with the regexp specified
+6.  $   This means a string ends with the regexp specified
+7.  ^ ... $  This means a string only has the regexp specified
+8.  \d  This is the same as [0-9]
 
 CURRENTLY ON PAGE 149 - 7.2 CONSTRUCTORS
 
-- More References: 
-	a.  https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Regular_Expressions
+#### More References: 
+- https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Regular_Expressions
 
 ### Chapter 8: Methods
 
 
 ### Chapter 9: Style
-	- indent 4 spaces
-	- use spaces consistantly
-	- if (true) { ... } -- space between 'if (' AND ') {'
-	- no spaces for function invocation -- myFunction()
-	- make comments meaningful, don't add meaningless comments -- example: i = 0; //Set i to zero
-	- declare all variables at the beginning of a function - due to js lack of block scope
+> - indent 4 spaces
+> - use spaces consistantly
+> - if (true) { ... } -- space between 'if (' AND ') {'
+> - no spaces for function invocation -- myFunction()
+> - make comments meaningful, don't add meaningless comments -- example: i = 0; //Set i to zero
+> - declare all variables at the beginning of a function - due to js lack of block scope
 
 ### Chapter 10: Beautiful Features
 
@@ -81,4 +81,4 @@ CURRENTLY ON PAGE 149 - 7.2 CONSTRUCTORS
 ### Appendix B: Bad Parts
 
 
-Appendix C: JSLint
+### Appendix C: JSLint
