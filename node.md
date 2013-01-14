@@ -62,7 +62,6 @@
 	e.  
 
 ## npm
-1.  npm install --save  NOTE: you can make an alias that does this for you.
 ##### Making a private node module
 > 1.  Create the module you want
 > 2.  In package.json:
@@ -93,5 +92,8 @@
 > 7.  require the module in your project
 	- i.e. var md = require('myModule');
 
+#### Adding to your package.json
+> 1.  npm install --save  NOTE: you can make an alias that does this for you.
+> 2.  npm install --save-dev NOTE: this will add the module to your package.json's devDependencies object
 
 
