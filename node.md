@@ -1,6 +1,6 @@
-node.notes
+# NODE NOTES
 
-1.  Node's 'out-of-the-box' Modules
+## Node's 'out-of-the-box' Modules
 	a.  http
 		- Setting up a server
 			var http = require('http');
@@ -37,7 +37,7 @@ node.notes
 
 	j.  
 
-2.  Modules (third party)
+## Modules (third party)
 	a.  node-debug
 
 	b.  express
@@ -61,5 +61,37 @@ node.notes
 
 	e.  
 
-3. npm
-	a.   npm install --save  NOTE: you can make an alias that does this for you.
+## npm
+1.  npm install --save  NOTE: you can make an alias that does this for you.
+##### Making a private node module
+> 1.  Create the module you want
+> 2.  In package.json:
+
+	```
+	{
+		"name": "project_name",
+		"author": {
+			"name": "Shad Beard",
+			"email": "myEmail"
+		},
+		"version": "0.1.0",
+		"scripts": {
+			"start": "node app"
+		},
+		"dependencies": {
+			LIST OR DEPENDENCIES...
+		}
+	}
+	```
+
+> 3.  Create an index.js that requires the lib/*.js file
+	- module.exports = require('./lib/\<MyModule\>.js');
+> 4.  Go to the project you want to install the module in and add this line to package.json (in dependencies object):
+	-  "project_name": "git+ssh://git@198.61.232.162:project_name"
+> 5.  Make sure private is true in package.json
+> 6.  $ npm install
+> 7.  require the module in your project
+	- i.e. var md = require('myModule');
+
+
+
