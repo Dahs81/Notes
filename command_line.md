@@ -3,17 +3,17 @@ command_line.notes
 ## Basics
 
 1.  Commands:
-> - test:
->	- builtin: tests whether something is true or false
->	- alias for test is [ <test condition> ]
->	- Options:
->		- `-d` : Exists and is a directory
->		- `-e` : Exists
->		- `-f` : Exists and is a file
->		- `-r` : Exists and is readable
->		- `-s` : Exists and size is greater than o bytes
->		- `-w` : Exists and is writable
->		- `-x` : Exists and is executable
+	> - test:
+	>	- builtin: tests whether something is true or false
+	>	- alias for test is [ <test condition> ]
+	>	- Options:
+	>		- `-d` : Exists and is a directory
+	>		- `-e` : Exists
+	>		- `-f` : Exists and is a file
+	>		- `-r` : Exists and is readable
+	>		- `-s` : Exists and size is greater than o bytes
+	>		- `-w` : Exists and is writable
+	>		- `-x` : Exists and is executable
 
 
 
