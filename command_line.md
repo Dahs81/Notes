@@ -5,7 +5,7 @@ command_line.notes
 1.  Commands:
 	- test:
 		- builtin: tests whether something is true or false
-		- alias for test is [ <test condition> ]
+		- alias for test is [ `test condition` ]
 		- Options:
 			- `-d` : Exists and is a directory
 			- `-e` : Exists
