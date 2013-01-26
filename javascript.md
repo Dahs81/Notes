@@ -31,7 +31,7 @@ javascript.notes
 	####  Creating custom errors
 	**Option 1**
 		 
-	```   
+	```
 		function MyCustomError(msg) {
 			Error.call(this);
 			Error.captureStackTrace(this, arguments.callee);
@@ -54,7 +54,7 @@ javascript.notes
 		}
 	```
 
-	**NOTE:**  
+	**NOTE:**
 	> I keep this.constructor.prototype.__proto__ = Error.prototype inside the function to keep all the code together. But you can also replace this.constructor with UserError and that allows you to move the code to outside the function, so it only gets called once.
 
 	> If you go that route, make sure you call that line before the first time you throw UserError.
@@ -73,7 +73,8 @@ javascript.notes
 	```
 	str = num.toString();
 	str = String(num);  //Works with null and undefined
-	```	
+	```
+
 	- Convert string to number:
 
 	```

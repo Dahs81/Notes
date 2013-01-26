@@ -1,7 +1,7 @@
 ios.notes
 
 Basics
-1.  
+1.
 
 
 

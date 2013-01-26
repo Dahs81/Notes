@@ -62,7 +62,7 @@
 	e.  
 
 ## npm
-##### Making a private node module
+#### Making a private node module
 > 1.  Create the module you want
 > 2.  In package.json:
 
