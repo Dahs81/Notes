@@ -9,7 +9,7 @@
 ### Chapter 3: Objects
 #### Introduction
 > - Everything in javascript are objects except numbers, strings, and booleans.
-> - Object:  a container of properties that have a value aka key/value pairs.  
+> - Object:  a container of properties that have a value aka key/value pairs.
 > - Keys are any string, values can be anything but undefined.
 > - Object prototype linkage: this allows one object to inherit the properties of another object.
 	
