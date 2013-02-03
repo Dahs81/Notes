@@ -1,16 +1,11 @@
-server.notes
+## Server Notes
 
 1.  Setting up a Rackspace server
-	-
-
-
+	- a
 2.  Costs of Rackspace server
-	-
-
-
+	- a
 3.  Webfaction
-	- 
-
+	- a
 4.  Setting up a AWS server
 	- aws.amazon.com/console/
 	- My Account -> AWS Management Console
