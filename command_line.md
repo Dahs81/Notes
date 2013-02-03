@@ -14,7 +14,11 @@ command_line.notes
 			- `-s` : Exists and size is greater than o bytes
 			- `-w` : Exists and is writable
 			- `-x` : Exists and is executable
-
+2.  bash Control Commands:
+	- Control\-A : Go to the beginning of the line
+	- Control\-E : Go to the end of the line
+	- Control\-R : Search history for a given word **(AWESOME)**
+	- Control\-P : Steps backwards through resently executed commands (like up/down arrows)
 
 
 ## Advanced topics
