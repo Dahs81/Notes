@@ -13,15 +13,14 @@
 - Another example:
 `div > p.specialClass`
 HTML
-```
 
+```
 <div>
 	<p class='specialClass'>SELECTED</p>
 	<blockquote>
 		<p class='specialClass'>NOT SELECTED</p>
 	</blockquote>
 </div>
-
 ```
 
 - NOTE:  Only the p tag that is a direct descendent of a div is selected
