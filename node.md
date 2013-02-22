@@ -86,7 +86,7 @@
 > 3.  Create an index.js that requires the lib/*.js file
 	- module.exports = require('./lib/\<MyModule\>.js');
 > 4.  Go to the project you want to install the module in and add this line to package.json (in dependencies object):
-	-  "project_name": "git+ssh://git@198.61.232.162:project_name"
+	-  "project_name": "git+ssh://git@198.67.211.262:project_name"
 > 5.  Make sure private is true in package.json
 > 6.  $ npm install
 > 7.  require the module in your project
