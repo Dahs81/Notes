@@ -11,18 +11,19 @@
 	> This says to only apply .myClass to a div
 - This allows you to define .myClass differently for a particular tag type
 - Another example:
-	> `div > p.specialClass`
-	> HTML
-	> ```
-	>
-	> <div>
-	> 	<p class='specialClass'>SELECTED</p>
-	>	<blockquote>
-	>		<p class='specialClass'>NOT SELECTED</p>
-	>	</blockquote>
-	> </div>
-	>
-	>```
+`div > p.specialClass`
+HTML
+```
+
+<div>
+	<p class='specialClass'>SELECTED</p>
+	<blockquote>
+		<p class='specialClass'>NOT SELECTED</p>
+	</blockquote>
+</div>
+
+```
+
 - NOTE:  Only the p tag that is a direct descendent of a div is selected
 
 ## SCSS and SASS
