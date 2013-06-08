@@ -17,7 +17,49 @@ javascript.notes
 	```
 
 3.  Objects
+	- Looping over objects
 
+```
+var obj = {
+	service_1: {
+		name: 'service_1',
+		props: ['p1', 'p2', 'p3']
+	},
+	service_2: {
+		name: 'service_1',
+		props: ['x1', 'x2']
+	}
+};
+
+// Gives you back the names of services
+for (var key in obj) {
+	console.log(obj[key].name);
+}
+
+// Gives you back the array of props
+for (var key in obj) {
+	console.log(obj[key].props);
+}
+
+// Loop over the object using underscore
+u.each(obj, function(result, index) {
+	var name = result.name;
+	console.log(name);
+	var props = result.props;
+	console.log(props);
+});
+
+```
+
+##### Notes
+	**Results:**
+	1.  obj[key] is the keys to the main obj i.e. service\_1, service\_2
+	2.  obj[key].name gets the name property for each service in obj i.e. service\_1\_prop, service\_2\_prop
+	3.  obj[key].props gets the props property for each service in obj i.e. 'p1,p2,p3', 'x1,x2'.  *This is really an array.*
+
+	Other Notes:
+	1.  To retrieve keys: obj[key]
+	2.  To retrieve values for keys: obj[key].prop
 
 4.  Arrays
 
@@ -90,6 +132,19 @@ javascript.notes
 
 2.  Building functions (by returning a function)
 
+3.  Callbacks ???
+	
+	```
+	// callback is a function invoked somewhere else - callback takes one arg
+	var myFunct = function(a, b, callback) {
+		var total = a + b;
+		callback(total);  // The number of args here is how many args should be in your callback function.
+	}
+
+	myFunct(3, 4, function(answer) {
+		console.log(answer);
+	});
+	```
 
 ## Libraries
 

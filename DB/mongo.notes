@@ -6,8 +6,16 @@ Installing MongoDB
 Getting started
 -  Command-line
 	a.  Start the server by typing 'mongod' into the console
-	b.  Open a new bash tab and run 'mongo'
+	b.  Open a new bash tab and run 'mongo'.  This is an interactive shell.
 	c.  use <databaseName>
--  
+-  Create a new database
+	a.  use <databasename>
+	b.  Insert a collection
+		-  db.collectionName.insert({ fname: 'Bill', lname: 'Anderson' })
+		**NOTE:** When a collection is created, the db is then created.  To verify, run: $ show dbs
+-  Delete a database
+	a.  From within the database that you want to delete (i.e. use <dbName>), db.dropDatabase()
+	b.  This is strange, but when you run show dbs, it still has the name of the dropped db.  run $ use newDb to start working on another db.
+
 
 
