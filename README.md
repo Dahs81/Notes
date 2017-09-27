@@ -1,7 +1,5 @@
 ## Notes
 
-~ a
-
 I am currently in the process of converting all or most of the files to markdown so it is easier to read.
 
 This is some of my personal notes on various computer science topics.
